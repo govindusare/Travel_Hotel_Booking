@@ -1,1 +1,41 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 @import "tailwindcss";
+
+:root {
+  --color-background: #F7FAFC;
+  --color-text: #143F4A;
+  --color-textlight: #7E7E7E;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-footer1: #143F4A;
+  --color-card1: #E6F5A9;
+  --color-card2: #F0F0F0;
+  --color-card3: #E2E2FF;
+  --color-card4: #BDEBCE;
+  --color-card5: #143F4A;
+  --color-card6: #1CA8CB;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+
+  .layout {
+    @apply w-full px-8 sm:px-12 md:px-18 lg:px-22 xl:px-24;
+  }
+}

@@ -1,14 +1,8 @@
 import './App.css'
+import AppRoutes from './routes/AppRoutes'
 
 function App() {
-
-  return (
-    <>
-    <div>
-      <h1>hello all Student This is react project </h1>
-    </div>
-    </>
-  )
+  return <AppRoutes />
 }
 
 export default App
