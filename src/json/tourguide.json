@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Daniel Cruz",
+    "designation": "Adventure & Hiking Guide",
+    "image": "TourGuide1.png",
+    "whatapp": "whatsapp.svg",
+    "twitter": "twitter.svg",
+    "instagram": "instagram.svg"
+  },
+  {
+    "id": 2,
+    "name": "Sara Mitchell",
+    "designation": "Walking Tour Expert",
+    "image": "TourGuide2.png",
+    "whatapp": "whatsapp.svg",
+    "twitter": "twitter.svg",
+    "instagram": "instagram.svg"
+  },
+  {
+    "id": 3,
+    "name": "Ahmed Al-Farsi",
+    "designation": "Desert & City Tour Specialist",
+    "image": "TourGuide3.png",
+    "whatapp": "whatsapp.svg",
+    "twitter": "twitter.svg",
+    "instagram": "instagram.svg"
+  },
+  {
+    "id": 4,
+    "name": "Aisha Khan",
+    "designation": "Cultural & Heritage Guide",
+    "image": "TourGuide4.png",
+    "whatapp": "whatsapp.svg",
+    "twitter": "twitter.svg",
+    "instagram": "instagram.svg"
+  }
+]
