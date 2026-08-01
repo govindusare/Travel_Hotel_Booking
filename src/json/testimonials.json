@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rev-1",
+    "name": "Andrew Gould",
+    "role": "Traveler",
+    "avatar": "/src/assets/testinomials/avatar_5.png",
+    "content": "It was a free and useful travel booking experience. The recommendations were very helpful.",
+    "rating": 5,
+    "mapX": 25,
+    "mapY": 35
+  },
+  {
+    "id": "rev-2",
+    "name": "Elena Rostova",
+    "role": "Luxury Traveler",
+    "avatar": "/src/assets/testinomials/avatar_2.png",
+    "content": "The hotel booking process was extremely smooth, and the recommended tours in Greece were outstanding.",
+    "rating": 5,
+    "mapX": 51,
+    "mapY": 30
+  },
+  {
+    "id": "rev-3",
+    "name": "David K. Chen",
+    "role": "Business & Leisure",
+    "avatar": "/src/assets/testinomials/avatar_3.png",
+    "content": "Incredible service! Skip-the-line passes saved us hours, and the coordinates were spot-on.",
+    "rating": 4,
+    "mapX": 78,
+    "mapY": 40
+  },
+  {
+    "id": "rev-4",
+    "name": "Sarah Jenkins",
+    "role": "Solo Adventurer",
+    "avatar": "/src/assets/testinomials/avatar_4.png",
+    "content": "I usually plan everything myself, but these packages were too good to pass up. 10/10 experience.",
+    "rating": 5,
+    "mapX": 55,
+    "mapY": 65
+  },
+  {
+    "id": "rev-5",
+    "name": "Marcus Thompson",
+    "role": "Backpacker",
+    "avatar": "/src/assets/testinomials/avatar_1.png",
+    "content": "Fabulous trip to Egypt! Extremely helpful recommendations and round-the-clock customer support.",
+    "rating": 5,
+    "mapX": 30,
+    "mapY": 68
+  }
+]

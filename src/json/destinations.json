@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "egypt",
+    "title": "Egypt",
+    "travelers": "176,500 travelers",
+    "image": "/src/assets/destination/egypt.jpg"
+  },
+  {
+    "id": "greece",
+    "title": "Greece",
+    "travelers": "120,430 travelers",
+    "image": "/src/assets/destination/greece.jpg"
+  },
+  {
+    "id": "uk",
+    "title": "United Kingdom",
+    "travelers": "176,500 travelers",
+    "image": "/src/assets/destination/uk.jpg"
+  },
+  {
+    "id": "france",
+    "title": "France",
+    "travelers": "120,500 travelers",
+    "image": "/src/assets/destination/france.jpg"
+  }
+]
