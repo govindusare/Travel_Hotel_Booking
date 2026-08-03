@@ -9,12 +9,25 @@ import call from "../../assets/Footer_icons/call.png";
 import mail from "../../assets/Footer_icons/mail.png";
 import location from "../../assets/Footer_icons/location.png";
 import subscribeCursor from "../../assets/Footer_icons/Suscribe_cursor.png";
+
+import footerData from "../../json/footer.json";
+
 import gallery1 from "../../assets/Footer_images/Gallery-1.jpg";
 import gallery2 from "../../assets/Footer_images/Gallery-2.jpg";
 import gallery3 from "../../assets/Footer_images/Gallery-3.jpg";
 import gallery4 from "../../assets/Footer_images/Gallery-4.jpg";
 import gallery5 from "../../assets/Footer_images/Gallery-5.jpg";
 import gallery6 from "../../assets/Footer_images/Gallery-6.jpg";
+
+const galleryImages = {
+  "Gallery-1.jpg": gallery1,
+  "Gallery-2.jpg": gallery2,
+  "Gallery-3.jpg": gallery3,
+  "Gallery-4.jpg": gallery4,
+  "Gallery-5.jpg": gallery5,
+  "Gallery-6.jpg": gallery6,
+};
+
 
 const Footer = () => {
   return (
@@ -183,36 +196,16 @@ const Footer = () => {
 
             <div className="lg:ml-10">
 
-              <h3 className="text-white text-[25px] font-semibold my-6">
+              <h3 className="text-white text-[25px] font-semibold mb-6">
                 Gallery
               </h3>
 
               <div className="grid grid-cols-3 gap-3">
-
-                <div className="overflow-hidden rounded-xl">
-                  <img src={gallery1} alt="Gallery 1" className="w-[94px] h-[94px] object-cover hover:scale-110 transition duration-300" />
-                </div>
-
-                <div className="overflow-hidden rounded-xl">
-                  <img src={gallery2} alt="Gallery 2" className="w-[94px] h-[94px] object-cover hover:scale-110 transition duration-300" />
-                </div>
-
-                <div className="overflow-hidden rounded-xl">
-                  <img src={gallery3} alt="Gallery 3" className="w-[94px] h-[94px] object-cover hover:scale-110 transition duration-300" />
-                </div>
-
-                <div className="overflow-hidden rounded-xl">
-                  <img src={gallery4} alt="Gallery 4" className="w-[94px] h-[94px] object-cover hover:scale-110 transition duration-300" />
-                </div>
-
-                <div className="overflow-hidden rounded-xl">
-                  <img src={gallery5} alt="Gallery 5" className="w-[94px] h-[94px] object-cover hover:scale-110 transition duration-300" />
-                </div>
-
-                <div className="overflow-hidden rounded-xl">
-                  <img src={gallery6} alt="Gallery 6" className=" w-[94px] h-[94px] object-cover hover:scale-110 transition duration-300" />
-                </div>
-
+                {footerData.gallery.map((item) => (
+                  <div key={item.id} className="overflow-hidden rounded-xl">
+                    <img src={galleryImages[item.image]} alt={item.alt} className="w-[94px] h-[94px] object-cover hover:scale-110 transition duration-300" />
+                  </div>
+                ))}
               </div>
 
             </div>
