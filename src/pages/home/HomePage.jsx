@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection'
 import PopularDestinations from './components/PopularDestinations'
 import PromoBanner from './components/PromoBanner'
 import TourGuide from './components/TourGuide'
+import GallerySection from './components/gallerySection'
 
 function HomePage() {
   return (
@@ -12,7 +13,8 @@ function HomePage() {
       <TourGuide/>
       <PopularDestinations />
       <PromoBanner />
-    </>
+      <GallerySection/>
+  </>
   )
 }
 
