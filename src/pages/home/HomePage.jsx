@@ -4,6 +4,7 @@ import PopularDestinations from './components/PopularDestinations'
 import PromoBanner from './components/PromoBanner'
 import Testimonials from './components/Testimonials'
 import TourGuide from './components/TourGuide'
+import GallerySection from './components/gallerySection'
 
 function HomePage() {
   return (
@@ -14,7 +15,8 @@ function HomePage() {
       <PopularDestinations />
       <Testimonials />
       <PromoBanner />
-    </>
+      <GallerySection/>
+  </>
   )
 }
 
