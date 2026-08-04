@@ -20,7 +20,7 @@ const GalleryItem = ({ item }) => (
   <img
     src={images[item.image]}
     alt={item.alt}
-    className={`rounded-[24px] object-cover shadow-sm w-[${item.width}] h-[${item.height}] mt-[${item.topOffset}]`}
+    className={`rounded-[24px] object-cover shadow-sm w-[${item.width}] h-[${item.height}] mt-[${item.topOffset}]` }
   />
 );
 
@@ -54,10 +54,10 @@ const GallerySection = () => {
       <div className="relative z-10 mx-auto max-w-[1440px] px-5 sm:px-8 lg:px-10">
         {/* ===== Heading ===== */}
         <div className="mb-16 flex flex-col items-center gap-3 text-center lg:mb-20">
-          <p className="font-['Playball'] text-3xl md:text-4xl lg:text-[42px] text-[#143f4a]">
+          <p className="text-3xl md:text-4xl lg:text-[42px] text-[#143f4a]">
             Best Memorable Places
           </p>
-          <h2 className="font-['Sitka'] text-4xl md:text-6xl lg:text-[76px] font-semibold text-[#143f4a] leading-none">
+          <h2 className="text-4xl md:text-6xl lg:text-[76px] font-semibold text-[#143f4a] leading-none">
             Recent Gallery
           </h2>
         </div>
