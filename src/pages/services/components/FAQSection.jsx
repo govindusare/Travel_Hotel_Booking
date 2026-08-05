@@ -11,7 +11,7 @@ function FAQSection() {
   const [activeId, setActiveId] = useState(2);
 
   const toggleFAQ = (id) => {
-    setActiveId(activeId === id ? null :1);
+    setActiveId(activeId === id ? null : id);
   };
 
   return (
