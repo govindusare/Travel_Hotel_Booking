@@ -1,5 +1,6 @@
 import FeaturedHotels from './components/FeaturedHotels'
-import HeroSection from './components/HeroSection'
+import Navbar from "../../components/layout/Navbar.jsx";
+import HeroSection from './components/HeroSection.jsx'
 import PopularDestinations from './components/PopularDestinations'
 import PromoBanner from './components/PromoBanner'
 import TourGuide from './components/TourGuide'
@@ -7,6 +8,7 @@ import TourGuide from './components/TourGuide'
 function HomePage() {
   return (
     <>
+      <Navbar />
       <HeroSection />
       <FeaturedHotels />
       <TourGuide/>
