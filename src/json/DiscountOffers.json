@@ -4,7 +4,7 @@
     "subTitle": "Discounts & Offers",
     "title": "Special Travel Deals"
   },
-  "totalSlides": 5,
+  "totalSlides": 9,
   "cards": [
     {
       "id": 1,
@@ -47,10 +47,52 @@
       "tour": "Group Adventure Tour",
       "button": "Book Now",
       "image": "family",
-      "gradient": "from-[#7C4DFF] via-[#9C7CFF] to-[#C4B5FF]"
+      "gradient": "from-[#6EC8DD] via-[#8BD9EB] to-[#46BADB]"
     },
     {
       "id": 5,
+      "type": "bali",
+      "title1": "Goa",
+      "title2": "Retreat",
+      "priceLabel": "Starting At",
+      "price": "$199.00",
+      "perPerson": "Per Person Only",
+      "days": "03",
+      "daysLabel": "Days",
+      "leftVector": "Vector1070",
+      "rightVector": "Vector1071",
+      "coupleImage": "Travel_couple"
+    },
+    {
+      "id": 3,
+      "type": "travel",
+      "discount": "30%",
+      "discountLabel": "OFF",
+      "backgroundImage": "travelWorld",
+      "coupleImage": "baliCouple",
+      "bgColor": "#FBC71D"
+    },
+    {
+      "id": 7,
+      "type": "travel",
+      "discount": "30%",
+      "discountLabel": "OFF",
+      "backgroundImage": "travelWorld",
+      "coupleImage": "baliCouple",
+      "bgColor": "#FBC71D"
+    },
+    {
+      "id": 8,
+      "type": "family",
+      "saveText": "Flat",
+      "discount": "25% OFF",
+      "tour": "Group Adventure Tour",
+      "button": "Book Now",
+      "image": "family",
+      "gradient": "from-[#6EC8DD] via-[#8BD9EB] to-[#46BADB]"
+    },
+    {
+      "id": 9,
       "type": "bali",
       "title1": "Goa",
       "title2": "Retreat",
