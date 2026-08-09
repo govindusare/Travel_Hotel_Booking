@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Cruises",
+    "image": "cruise",
+    "rotate": "-8deg"
+  },
+  {
+    "id": 2,
+    "title": "Hiking",
+    "image": "hiking",
+    "rotate": "-6deg"
+  },
+  {
+    "id": 3,
+    "title": "Airbirds",
+    "image": "bird",
+    "rotate": "0deg"
+  },
+  {
+    "id": 4,
+    "title": "Wildlife",
+    "image": "wildlife",
+    "rotate": "8deg"
+  },
+  {
+    "id": 5,
+    "title": "Walking",
+    "image": "walking",
+    "rotate": "10deg"
+  }
+]
