@@ -10,8 +10,8 @@ import TourGuide from './components/TourGuide'
 import OurPackages from './components/OurPackages'
   
 import GallerySection from './components/gallerySection'
-import DiscountsOffers from './components/Discount&Offers'
-import TourCategories from './components/TourCategories'
+// import DiscountsOffers from './components/Discount&Offers'
+// import TourCategories from './components/TourCategories'
 
 
 function HomePage() {
