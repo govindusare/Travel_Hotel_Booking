@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Patagonia Trek",
+    "price": 890,
+    "days": 7,
+    "rating": 4.8,
+    "image": "patagonia"
+  },
+  {
+    "id": 2,
+    "title": "Dubai Luxury Escape",
+    "price": 870,
+    "days": 7,
+    "rating": 4.9,
+    "image": "dubai"
+  },
+  {
+    "id": 3,
+    "title": "Tokyo Journey",
+    "price": 1100,
+    "days": 6,
+    "rating": 4.9,
+    "image": "tokyo"
+  }
+]

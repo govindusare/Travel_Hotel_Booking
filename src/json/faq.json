@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Can I Customize my travel itinerary?",
+    "answer": "YES"
+  },
+  {
+    "id": 2,
+    "question": "How far in advance should I book my trip?",
+    "answer": "A travel agency is a gateway to unforgettable journeys, offering expert guidance, personalized itineraries, and hassle-free arrangements for travelers."
+  },
+  {
+    "id": 3,
+    "question": "Can I pay in installments?",
+    "answer": "No,pay at a time"
+  },
+  {
+    "id": 4,
+    "question": "Can I book additional activities during my trip?",
+    "answer": "YES"
+  }
+]
