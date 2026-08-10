@@ -81,7 +81,7 @@ const TourCategories = () => {
         hidden w-[50px] select-none  md:block lg:bottom-[28px] lg:left-[18px] lg:w-[55px] xl:left-[25px] xl:w-[60px]"
       />
 
-      {/* =====================================================
+          {/* =====================================================
           HEADING
       ===================================================== */}
 
@@ -101,11 +101,11 @@ const TourCategories = () => {
           CARDS CONTAINER
       ===================================================== */}
 
-      <div className=" relative z-10 mt-10 w-full overflow-hidden pb-10 sm:mt-12 sm:pb-12 md:mt-14 lg:mt-[18px] lg:overflow-visible lg:pb-0">
+      <div className="relative z-10 mt-10 w-full overflow-hidden pb-10 sm:mt-12 sm:pb-12 md:mt-14 lg:mt-[18px] lg:overflow-visible lg:pb-0">
         {/* ===================================================
             DESKTOP
         =================================================== */}
-        <div className="mx-auto  hidden h-[350px] w-full max-w-[1250px] items-start justify-between px-5 lg:flex">
+        <div className="mx-auto hidden h-[350px] w-full max-w-[1250px] items-start justify-between px-5 lg:flex">
           {categories.map((item, index) => {
             const position =
               desktopCardPositions[index] || desktopCardPositions[2];
@@ -113,7 +113,7 @@ const TourCategories = () => {
             return (
               <div
                 key={index}
-                className="group flex w-[180px] flex-none  flex-col  items-center  will-change-transform transition-transform  duration-500  ease-out hover:-translate-y-2 xl:w-[190px] 2xl:w-[200px]"
+                className="group flex w-[180px] flex-none flex-col items-center will-change-transform transition-transform duration-500 ease-out hover:-translate-y-2 xl:w-[190px] 2xl:w-[200px]"
                 style={{
                   transform: position.transform,
                 }}
@@ -121,11 +121,11 @@ const TourCategories = () => {
                 {/* =========================================
                     IMAGE
                 ========================================= */}
-                <div className=" h-[180px] w-[180px] overflow-hidden rounded-[12px] bg-white  xl:h-[190px]  xl:w-[190px] 2xl:h-[200px] 2xl:w-[200px]">
+                <div className="h-[180px] w-[180px] overflow-hidden rounded-[12px] bg-white xl:h-[190px] xl:w-[190px] 2xl:h-[200px] 2xl:w-[200px]">
                   <img
                     src={item.image}
                     alt={item.title}
-                    className=" h-full  w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
 
@@ -133,7 +133,7 @@ const TourCategories = () => {
                     TITLE
                 ========================================= */}
 
-                <h3 className=" mt-3 whitespace-nowrap text-center text-[17px] font-bold  leading-tight text-[#143F4A] xl:text-[18px] 2xl:text-[19px]">
+                <h3 className="mt-3 whitespace-nowrap text-center text-[17px] font-bold leading-tight text-[#143F4A] xl:text-[18px] 2xl:text-[19px]">
                   {item.title}
                 </h3>
 
@@ -142,14 +142,13 @@ const TourCategories = () => {
                 ========================================= */}
 
                 <button
-                  className="mt-2 flex  h-[34px] w-[112px] items-center justify-center  gap-1.5   rounded-full  border
-            border-[#B8C8CC]  bg-white text-[11px] font-normal  text-[#143F4A]  transition-all   duration-300  hover:border-[#143F4A] hover:bg-[#143F4A]   hover:text-white  xl:h-[36px] xl:w-[118px] xl:text-[12px]"
+                  className="mt-2 flex h-[34px] w-[112px] items-center justify-center gap-1.5 rounded-full border border-[#B8C8CC] bg-white text-[11px] font-normal text-[#143F4A] transition-all duration-300 hover:border-[#143F4A] hover:bg-[#143F4A] hover:text-white xl:h-[36px] xl:w-[118px] xl:text-[12px]"
                 >
                   Read More
                   <img
                     src={ArrowRight}
                     alt=""
-                    className="h-[12px]   w-[12px]  transition-transform duration-300 group-hover:translate-x-1"
+                    className="h-[12px] w-[12px] transition-transform duration-300 group-hover:translate-x-1"
                   />
                 </button>
               </div>
@@ -161,36 +160,35 @@ const TourCategories = () => {
             TABLET
         =================================================== */}
 
-        <div className="hidden  snap-x snap-mandatory     gap-4 overflow-x-auto  px-4 scrollbar-hide md:flex  lg:hidden">
+        <div className="hidden snap-x snap-mandatory gap-4 overflow-x-auto px-4 scrollbar-hide md:flex lg:hidden">
           {categories.map((item, index) => (
             <div
               key={index}
-              className="group w-[220px]  flex-none  snap-start sm:w-[240px]"
+              className="group w-[220px] flex-none snap-start sm:w-[240px]"
             >
               {/* Image */}
-              <div className="aspect-square  w-full overflow-hidden rounded-[24px] p-2  shadow-md  transition-shadow duration-300 group-hover:shadow-xl">
+              <div className="aspect-square w-full overflow-hidden rounded-[24px] p-2 shadow-md transition-shadow duration-300 group-hover:shadow-xl">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="h-full w-full  rounded-[20px]   object-cover transition-transform duration-500  group-hover:scale-105"
+                  className="h-full w-full rounded-[20px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
 
               {/* Title */}
-              <h3 className=" mt-4 text-center  text-xl  font-bold  text-[#143F4A] sm:text-[22px]">
+              <h3 className="mt-4 text-center text-xl font-bold text-[#143F4A] sm:text-[22px]">
                 {item.title}
               </h3>
 
               {/* Button */}
               <button
-                className="mx-auto   mt-3 flex h-[42px] w-[150px] items-center   justify-center gap-2 rounded-full border border-gray-300
-                  bg-white text-[14px]  text-[#143F4A] transition-all duration-300  hover:bg-[#143F4A]  hover:text-white sm:h-[44px] sm:w-[160px]"
+                className="mx-auto mt-3 flex h-[42px] w-[150px] items-center justify-center gap-2 rounded-full border border-gray-300 bg-white text-[14px] text-[#143F4A] transition-all duration-300 hover:bg-[#143F4A] hover:text-white sm:h-[44px] sm:w-[160px]"
               >
                 Read More
                 <img
                   src={ArrowRight}
                   alt=""
-                  className="h-4 w-4  transition-transform duration-300 group-hover:translate-x-1 "
+                  className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
                 />
               </button>
             </div>
@@ -201,17 +199,16 @@ const TourCategories = () => {
             MOBILE
         =================================================== */}
 
-        <div className="flex snap-x  snap-mandatory gap-4 overflow-x-auto px-4 scrollbar-hide md:hidden">
+        <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 scrollbar-hide md:hidden">
           {categories.map((item, index) => (
-            <div key={index} className=" group w-full flex-none snap-center ">
+            <div key={index} className="group w-full flex-none snap-center">
               <div className="mx-auto max-w-[320px]">
                 {/* Image */}
-                <div className="overflow-hidden rounded-[24px] p-2  transition-shadow  duration-300 group-hover:shadow-xl">
+                <div className="overflow-hidden rounded-[24px] p-2 transition-shadow duration-300 group-hover:shadow-xl">
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="h-[240px] w-full rounded-[20px] object-cover transition-transform duration-500 group-hover:scale-105
-                    "
+                    className="h-[240px] w-full rounded-[20px] object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
 
@@ -222,8 +219,7 @@ const TourCategories = () => {
 
                 {/* Button */}
                 <button
-                  className="mx-auto mt-3 flex  h-[42px] w-[150px] items-center  justify-center gap-2 rounded-full  border  border-gray-300  bg-white  
-                  text-[14px]  text-[#143F4A] transition-all duration-300  hover:bg-[#143F4A]  hover:text-white"
+                  className="mx-auto mt-3 flex h-[42px] w-[150px] items-center justify-center gap-2 rounded-full border border-gray-300 bg-white text-[14px] text-[#143F4A] transition-all duration-300 hover:bg-[#143F4A] hover:text-white"
                 >
                   Read More
                   <img
@@ -242,7 +238,6 @@ const TourCategories = () => {
 };
 
 export default TourCategories;
-
 
 // import React from "react";
 // import { ArrowRight } from "lucide-react";
