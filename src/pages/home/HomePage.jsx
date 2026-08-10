@@ -15,10 +15,10 @@ function HomePage() {
   return (
     <>
       <HeroSection />
+      <AboutUs />
       <DiscountsOffers />
       <TourCategories />
-      <FeaturedHotels />
-      <AboutUs />
+      <FeaturedHotels />      
       <PromoBanner />
       <OurPackages />
       <GallerySection />
