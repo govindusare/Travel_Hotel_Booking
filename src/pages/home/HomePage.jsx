@@ -1,39 +1,33 @@
-import FAQSection from '../services/components/FAQSection'
-import FeaturedHotels from './components/FeaturedHotels'
-import HeroSection from './components/HeroSection'
-import PopularDestinations from './components/PopularDestinations'
-import PromoBanner from './components/PromoBanner'
+import FAQSection from "../services/components/FAQSection";
+import FeaturedHotels from "./components/FeaturedHotels";
+import HeroSection from "./components/HeroSection";
+import PopularDestinations from "./components/PopularDestinations";
+import PromoBanner from "./components/PromoBanner";
+import AboutUs from "./components/AboutUs";
 import DiscountsOffers from "./components/DiscountsOffers";
-import TourCategories from  "./components/TourCategories";
-import Footer from "../../components/layout/Footer"; //rohan
-import TourGuide from './components/TourGuide'
-import OurPackages from './components/OurPackages'
-  
-import GallerySection from './components/gallerySection'
-// import DiscountsOffers from './components/Discount&Offers'
-// import TourCategories from './components/TourCategories'
-
+import TourCategories from "./components/TourCategories";
+import Footer from "../../components/layout/Footer";
+import TourGuide from "./components/TourGuide";
+import OurPackages from "./components/OurPackages";
+import GallerySection from "./components/gallerySection";
 
 function HomePage() {
   return (
     <>
       <HeroSection />
+      <AboutUs />
       <DiscountsOffers />
-      <TourCategories/>
-      <FeaturedHotels />
+      <TourCategories />
+      <FeaturedHotels />      
+      <PromoBanner />
       <OurPackages />
-      <TourGuide/>
+      <GallerySection />
+      <TourGuide />
       <PopularDestinations />
       <FAQSection />
-      <PromoBanner />
-      
-      <DiscountsOffers />
-     <TourCategories/>
-
-      <GallerySection/>
       <Footer />
     </>
-  )
+  );
 }
-
-export default HomePage
+//this is all changes done by govind sir 
+export default HomePage;

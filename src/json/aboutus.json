@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "image": "about1",
+      "alt": "Travel 1"
+    },
+    {
+      "id": 2,
+      "image": "about2",
+      "alt": "Travel 2"
+    },
+    {
+      "id": 3,
+      "image": "about3",
+      "alt": "Travel 3"
+    },
+    {
+      "id": 4,
+      "image": "about4",
+      "alt": "Travel 4"
+    }
+  ]
+}
