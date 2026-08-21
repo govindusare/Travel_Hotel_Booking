@@ -1,5 +1,6 @@
 import FAQSection from "../services/components/FAQSection";
 import FeaturedHotels from "./components/FeaturedHotels";
+import Navbar from "../../components/layout/Navbar";
 import HeroSection from "./components/HeroSection";
 import PopularDestinations from "./components/PopularDestinations";
 import PromoBanner from "./components/PromoBanner";
@@ -14,6 +15,7 @@ import GallerySection from "./components/gallerySection";
 function HomePage() {
   return (
     <>
+      <Navbar />
       <HeroSection />
       <AboutUs />
       <DiscountsOffers />
